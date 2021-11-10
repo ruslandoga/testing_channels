@@ -6,6 +6,8 @@ defmodule TestingChannelsWeb.UserSocket do
   # It's possible to control the websocket connection and
   # assign values that can be accessed by your channel topics.
 
+  channel "room:lobby", TestingChannelsWeb.RoomChannel
+
   ## Channels
   # Uncomment the following line to define a "room:*" topic
   # pointing to the `TestingChannelsWeb.RoomChannel`:
@@ -18,7 +20,6 @@ defmodule TestingChannelsWeb.UserSocket do
   #
   # See the [`Channels guide`](https://hexdocs.pm/phoenix/channels.html)
   # for futher details.
-
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After
