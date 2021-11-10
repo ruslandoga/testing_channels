@@ -1,19 +1,9 @@
-# TestingChannels
+```elixir
+> mix test
 
-To start your Phoenix server:
+....18:40:31.716 [error] Postgrex.Protocol (#PID<0.394.0>) disconnected: ** (DBConnection.ConnectionError) client #PID<0.473.0> exited
+..
 
-- Install dependencies with `mix deps.get`
-- Create and migrate your database with `mix ecto.setup`
-- Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-- Official website: https://www.phoenixframework.org/
-- Guides: https://hexdocs.pm/phoenix/overview.html
-- Docs: https://hexdocs.pm/phoenix
-- Forum: https://elixirforum.com/c/phoenix-forum
-- Source: https://github.com/phoenixframework/phoenix
+Finished in 0.06 seconds (0.06s async, 0.00s sync)
+6 tests, 0 failures
+```
